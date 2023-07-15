@@ -28,7 +28,7 @@
   align-items: center;
   justify-content: center;
 }
-.chevron-down {
+.chevron-down, .chevron-up {
   width: 24px;
   height: 24px;
 }
@@ -44,6 +44,9 @@
   padding: 8px 4px;
   /* max-height: 300px;
   overflow-y: auto; */
+}
+.hidden {
+    display: none;
 }
 .item {
   cursor: pointer;
