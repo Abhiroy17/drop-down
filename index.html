@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dropdown select</title>
-    <link rel="stylesheet" href="dropdown.css">
-    <script src="dropdown.js"></script>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>dropdown select</title>
+        <link rel="stylesheet" href="dropdown.css">
+        <script src="dropdown.js"></script>
+    </head>
+    <body>
+        <div class="dropdown">
+            <div class="select-menu">
+                <div class="select-btn">
+                    <span class="btn-text">Select items</span>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        class="w-6 h-6 chevron-down"
+                    >
+                        <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd"/>
+                    </svg>
+                </div>
+                <div class="item-container">
+                    <ul class="items">
+                        <li class="item" data-item="item-1">Option 1</li>
+                        <li class="item" data-item="item-2">Option 2</li>
+                        <li class="item" data-item="item-3">Option 3</li>
+                        <li class="item" data-item="item-1">Option 4</li>
+                        <li class="item" data-item="item-2">Option 5</li>
+                        <li class="item" data-item="item-3">Option 6</li>
+                        <li class="item" data-item="item-1">Option 7</li>
+                        <li class="item" data-item="item-2">Option 8</li>
+                        <li class="item" data-item="item-3">Option 9</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </body>
 </html>
